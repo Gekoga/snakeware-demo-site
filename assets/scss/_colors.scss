@@ -1,0 +1,28 @@
+$primary-hue: 224;
+$primary-saturation: 36%;
+
+$primary-00: hsl($primary-hue, $primary-saturation, 00%);
+$primary-10: hsl($primary-hue, $primary-saturation, 10%);
+$primary-20: hsl($primary-hue, $primary-saturation, 20%);
+$primary-30: hsl($primary-hue, $primary-saturation, 30%);
+$primary-40: hsl($primary-hue, $primary-saturation, 40%);
+$primary-50: hsl($primary-hue, $primary-saturation, 50%);
+$primary-60: hsl($primary-hue, $primary-saturation, 60%);
+$primary-70: hsl($primary-hue, $primary-saturation, 70%);
+$primary-80: hsl($primary-hue, $primary-saturation, 80%);
+$primary-90: hsl($primary-hue, $primary-saturation, 90%);
+$primary-95: hsl($primary-hue, $primary-saturation, 95%);
+$primary-98: hsl($primary-hue, $primary-saturation, 98%);
+$primary-100: hsl($primary-hue, $primary-saturation, 100%);
+
+$primary: $primary-40;
+$on-primary: $primary-100;
+
+$primary-container: $primary-10;
+$on-primary-container: $primary-90;
+
+$primary-fixed: $primary-10;
+$on-primary-fixed: $primary-90;
+
+$primary-fixed-dim: $primary-30;
+$on-primary-fixed-dim: $primary-80;

@@ -1,0 +1,18 @@
+<script lang="ts" setup>
+import { ref } from "vue";
+
+const pageTitle = ref("Zet hier de pagina titel");
+</script>
+
+<template>
+  <Head>
+    <Title>
+      {{ pageTitle }}
+    </Title>
+  </Head>
+  <Body>
+    <section></section>
+  </Body>
+</template>
+
+<style scoped lang="scss"></style>

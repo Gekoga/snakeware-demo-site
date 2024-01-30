@@ -1,0 +1,6 @@
+$base: 0;
+$above: 1;
+
+$backdrop: $base;
+$openButton: $above + $backdrop;
+$dropdown: $above + $openButton;

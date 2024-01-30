@@ -1,0 +1,25 @@
+$elevation-light-level0: none;
+$elevation-light-level1: 0px 1px 3px 1px rgba(black, 0.15),
+  0px 1px 2px 0px rgba(black, 0.3);
+$elevation-light-level2: 0px 2px 6px 2px rgba(black, 0.15),
+  0px 1px 2px 0px rgba(black, 0.3);
+$elevation-light-level3: 0px 1px 3px 0px rgba(black, 0.3),
+  0px 4px 8px 3px rgba(black, 0.15);
+$elevation-light-level4: 0px 2px 3px 0px rgba(black, 0.3),
+  0px 6px 10px 4px rgba(black, 0.15);
+$elevation-light-level5: 0px 4px 4px 0px rgba(black, 0.3),
+  0px 8px 12px 6px rgba(black, 0.15);
+
+$level0: $elevation-light-level0;
+$level1: $elevation-light-level1;
+$level2: $elevation-light-level2;
+$level3: $elevation-light-level3;
+$level4: $elevation-light-level4;
+$level5: $elevation-light-level5;
+
+/* Overlay opacity values */
+$state-opacity-hover: 0.08;
+$state-opacity-focus: 0.12;
+$state-opacity-press: 0.12;
+$state-opacity-drag: 0.16;
+$state-opacity-disabled: 0.38;
